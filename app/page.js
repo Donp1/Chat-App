@@ -4,7 +4,6 @@ import LoginButton from "@/components/LoginButton";
 import { SignedIn, UserButton } from "@clerk/nextjs";
 
 const Home = () => {
-  console.log(process.env.UPSTASH_URL);
   return (
     <div className="min-h-screen flex flex-col justify-center items-center gap-10">
       <Image
